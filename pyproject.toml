@@ -26,3 +26,7 @@ dev = [
     "ruff>=0.7.1",
     "pytest-xdist>=3.6.1",
 ]
+
+[pytest]
+junit_family=legacy
+junit_xml=reports/test-results/pytest-results.xml
