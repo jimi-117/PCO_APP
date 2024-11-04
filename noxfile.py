@@ -43,10 +43,11 @@ def test(session):
     else:
         test_files = ["tests"]
 
-    session.run("uv", 
-                "run", 
-                "pytest", 
-                '--junitxml=reports/test-results/pytest-results.xml',
-                '--cov=src',
-                *test_files
-                )
+    session.run(
+        "uv",
+        "run",
+        "pytest",
+        # "--junitxml=reports/test-results/pytest-results.xml",
+        # "--cov=src",
+        *test_files,
+    )

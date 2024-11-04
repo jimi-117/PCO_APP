@@ -47,7 +47,7 @@ jobs:
 
       # all dependencies are noted in the pyproject.toml file
       - name: Install the project dependencies
-        run: uv sync --all-extras --dev
+        run: uv sync --dev
 
       - name: Run tests
         run: uv run nox
