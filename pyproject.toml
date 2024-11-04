@@ -1,19 +1,14 @@
 [project]
 name = "pco-recette-cesoir"
 version = "0.1.0"
-description = "Add your description here"
+description = "Application UI for PCO project Sipmlon.co"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "fastapi>=0.115.4",
     "gradio>=5.4.0",
-    "jupyter>=1.1.1",
-    "matplotlib>=3.9.2",
-    "numpy>=2.1.2",
     "pillow>=11.0.0",
-    "polars>=1.12.0",
     "pydantic>=2.9.2",
-    "ultralytics>=8.3.23",
     "uvicorn>=0.32.0",
 ]
 
